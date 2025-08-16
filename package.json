@@ -1,6 +1,6 @@
 {
   "name": "@kagehq/bus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Kage Bus - A simple pub/sub message bus for multi-agent orchestration",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
