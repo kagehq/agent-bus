@@ -1,4 +1,4 @@
-# 🤖 agent-bus
+# 🤖 Kage Bus
 
 A lightweight task router for AI agents / multi-agent orchestration.
 
@@ -8,12 +8,12 @@ When you run multiple agents, they:
 - Step on each other’s tasks
 - Return conflicting results
 
-`agent-bus` solves this with a simple **message bus** that:
+`@kagehq/bus` solves this with a simple **message bus** that:
 - Routes each task to one agent
 - Handles conflicts with pluggable strategies
 - Logs everything for debugging
 
-Running multiple AI agents? 🤖 `agent-bus` is a **lightweight message bus** that makes sure your agents don’t trip over each other.  
+Running multiple AI agents? 🤖 **Kage Bus** is a **lightweight message bus** that makes sure your agents don't trip over each other.  
 
 ✅ Simple pub/sub API  
 ✅ Only one agent claims each task  
@@ -26,14 +26,14 @@ Running multiple AI agents? 🤖 `agent-bus` is a **lightweight message bus** th
 ## Installation
 
 ```bash
-npm install agent-bus
+npm install @kagehq/bus
 ```
 
 ## Quick Start
 
 ```javascript
-//const { createBus } = require("agent-bus");
-import { createBus } from "agent-bus";
+//const { createBus } = require("@kagehq/bus");
+import { createBus } from "@kagehq/bus";
 
 const bus = createBus();
 
@@ -54,7 +54,7 @@ bus.send("task:research", { query: "latest AI news" });
 Creates a new AgentBus instance.
 
 **Options:**
-- `logFile` (string): Path to log file (default: `agent-bus.log`)
+- `logFile` (string): Path to log file (default: `kage-bus.log`)
 - `conflictResolution` (string): Strategy for handling multiple subscribers
   - `'last-writer-wins'` (default): Only the last registered handler processes messages
   - `'first-come-first-serve'`: Only the first registered handler processes messages
@@ -179,7 +179,7 @@ bus.send("task:process", { data: "message 3" });
 
 ## Logging
 
-All activities are automatically logged to a JSON file (default: `agent-bus.log`). Each log entry contains:
+All activities are automatically logged to a JSON file (default: `kage-bus.log`). Each log entry contains:
 
 - `timestamp`: ISO timestamp
 - `type`: Activity type (`send`, `subscribe`, `handle`)

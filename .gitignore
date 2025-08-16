@@ -9,7 +9,7 @@ dist/
 
 # Logs
 *.log
-agent-bus.log
+kage-bus.log
 
 # Runtime data
 pids

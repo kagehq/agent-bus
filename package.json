@@ -1,7 +1,7 @@
 {
-  "name": "agent-bus",
+  "name": "@kagehq/bus",
   "version": "0.1.0",
-  "description": "A simple pub/sub message bus for multi-agent orchestration",
+  "description": "Kage Bus - A simple pub/sub message bus for multi-agent orchestration",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -33,10 +33,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kagehq/agent-bus.git"
+    "url": "https://github.com/kagehq/bus.git"
   },
   "bugs": {
-    "url": "https://github.com/kagehq/agent-bus/issues"
+    "url": "https://github.com/kagehq/bus/issues"
   },
-  "homepage": "https://github.com/kagehq/agent-bus#readme"
+  "homepage": "https://github.com/kagehq/bus#readme"
 }

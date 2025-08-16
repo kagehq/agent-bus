@@ -64,4 +64,4 @@ for (let i = 1; i <= 6; i++) {
   busRR.send("task:round", { data: `task ${i}` });
 }
 
-console.log("\nDemo completed! Check agent-bus.log for detailed logs.");
+console.log("\nDemo completed! Check kage-bus.log for detailed logs.");

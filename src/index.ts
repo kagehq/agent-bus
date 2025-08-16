@@ -29,7 +29,7 @@ export class AgentBus {
   private handlerCounter = 0;
 
   constructor(options: BusOptions = {}) {
-    this.logFile = options.logFile || 'agent-bus.log';
+    this.logFile = options.logFile || 'kage-bus.log';
     this.conflictResolution = options.conflictResolution || 'last-writer-wins';
   }
 
