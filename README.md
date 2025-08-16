@@ -1,6 +1,6 @@
-# agent-bus
+# 🤖 agent-bus
 
-A lightweight task router for AI agents.
+A lightweight task router for AI agents / multi-agent orchestration.
 
 ## Why?
 When you run multiple agents, they:
