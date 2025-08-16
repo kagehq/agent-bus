@@ -1,0 +1,42 @@
+{
+  "name": "agent-bus",
+  "version": "0.1.0",
+  "description": "A simple pub/sub message bus for multi-agent orchestration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "agent",
+    "bus",
+    "pubsub",
+    "message",
+    "orchestration",
+    "typescript"
+  ],
+  "author": "Treadie, Inc",
+  "license": "FSL-1.1-MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "examples"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kagehq/agent-bus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kagehq/agent-bus/issues"
+  },
+  "homepage": "https://github.com/kagehq/agent-bus#readme"
+}
