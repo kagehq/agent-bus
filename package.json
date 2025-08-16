@@ -33,7 +33,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kagehq/bus.git"
+    "url": "git+https://github.com/kagehq/bus.git"
   },
   "bugs": {
     "url": "https://github.com/kagehq/bus/issues"
