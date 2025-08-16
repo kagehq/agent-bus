@@ -15,10 +15,10 @@ When you run multiple agents, they:
 
 Running multiple AI agents? 🤖 **Kage Bus** is a **lightweight message bus** that makes sure your agents don't trip over each other.  
 
-✅ Simple pub/sub API  
-✅ Only one agent claims each task  
-✅ Built-in conflict resolution (`last-writer-wins`)  
-✅ Local logs for debugging  
+- ✅ Simple pub/sub API  
+- ✅ Only one agent claims each task  
+- ✅ Built-in conflict resolution (`last-writer-wins`)  
+- ✅ Local logs for debugging  
  
 🔥 Run 5 agents in parallel in 10 lines of code.  
 
@@ -208,6 +208,14 @@ See the `examples/demo.js` file for a complete demonstration of all features.
 # Run the demo
 node examples/demo.js
 ```
+
+## Roadmap
+
+- ✅ First-claim wins
+- ✅ Last-writer-wins conflict strategy
+- ⬜ Human-in-the-loop approvals
+- ⬜ Cloud-hosted message bus
+- ⬜ Multi-tenant orchestration
 
 ## License
 
